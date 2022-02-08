@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+    line-height: 1;
+}
+
+.container {
+    width: 80rem;
+    margin: 10rem auto;
+    border: 1px solid black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.7rem;
+    padding: 1.7rem;
+}
+
+
+.header {
+    color: #fff;
+    background-color: #087f5b;
+    padding: 2rem;
+}
+
+table tr:nth-child(even) {
+    background-color: #e9ecef;
+}
+
+table tr:nth-child(odd) {
+    background-color: #E9ECEF;
+    background-color: #f8f9fa;
+}
+
+

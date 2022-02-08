@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Rubik', sans-serif;
+  line-height: 1;
+  color: #444;
+}
+
+header {
+  height: 100vh;
+  color: #fff;
+  background-image: linear-gradient(rgba(34, 34, 34, 0.6),
+  rgba(34, 34, 34, 0.6)),
+  url('hero.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.navigation {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3.5rem;
+}
+
+.header-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-container-inner {
+  width: 50%;
+}
+
+.header-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3rem;
+}
+
+.header-paragraph {
+  font-size: 2rem;
+  line-height: 1.4;
+  margin-top: 4rem;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1.8rem 3rem;
+    margin-top: 5rem;
+    border-radius: 9px;
+    background-color: #E67E22;
+    color: #fff;
+}
+
+section {
+  padding: 9.6rem 0;
+}
+
+.header-secondary {
+  font-size: 4rem;
+}
+
+
+
+
