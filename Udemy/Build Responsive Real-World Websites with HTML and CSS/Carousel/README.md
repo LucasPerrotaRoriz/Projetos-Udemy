@@ -1,0 +1,1 @@
+![](../imagens/Carousel.png)
