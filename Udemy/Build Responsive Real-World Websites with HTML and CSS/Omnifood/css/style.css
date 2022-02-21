@@ -65,11 +65,6 @@
     width: 130rem;
     margin: 0 auto;
     padding: 0 3.2rem;
-
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 9.6rem;
-    align-items: center;
 }
 
 .hero-text {
@@ -107,9 +102,6 @@
     width: 100%;
 }
 
-
-
-
-
-
-
+/***********************/
+/* HOW IT WORKS SECTION */
+/***********************/

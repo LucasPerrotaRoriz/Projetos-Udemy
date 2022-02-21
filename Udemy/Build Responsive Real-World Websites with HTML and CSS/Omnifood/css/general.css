@@ -15,14 +15,26 @@ body {
     color: #555;
 }
 
-/* REUSABLE COMPONENTS */
+/****************************************/
+/* GENERAL REUSABLE COMPONENTS */
+/****************************************/
+.grid {
+    display: grid;
+    column-gap: 6.4rem;
+    gap: 9.6rem;
+}
 
-.heading-primary {
+.grid-2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.heading-primary{
     font-size: 5.2rem;
     line-height: 1.05;
-    letter-spacing: -0.5px;
-    color: #333;
     margin-bottom: 3.2rem;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: -0.5px;
 }
 
 .margin-right-sm {
