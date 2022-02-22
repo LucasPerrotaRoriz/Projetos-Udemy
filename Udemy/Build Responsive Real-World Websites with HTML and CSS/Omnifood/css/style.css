@@ -105,3 +105,56 @@
 /***********************/
 /* HOW IT WORKS SECTION */
 /***********************/
+.section-how {
+    margin: 9.6rem 0;
+}
+
+.number {
+    font-size: 8rem;
+    font-weight: 600;
+    color: rgb(219, 216, 216);
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.step-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
+.step-img {
+    width: 40%;
+}
+
+.step-imgbox {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-imgbox:before,
+.step-imgbox:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.step-imgbox:before {
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: #FDF2E9;
+    z-index: -2;
+}
+
+.step-imgbox:after {
+    width: 48%;
+    padding-bottom: 48%;
+    background-color: #FAE5D3;
+    z-index: -1;
+}
