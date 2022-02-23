@@ -190,3 +190,100 @@
 /***********************/
 /* MEALS SECTION */
 /***********************/
+.meal-section {
+    margin: 9.6rem 0;
+}
+
+.meal-card {
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+.meal-card:hover {
+    transform: translateY(-1.6rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.meal-container {
+    padding: 3.2rem 4.8rem 4.8rem;
+}
+
+.meal-img {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    width: 100%;
+}
+
+.tag-container {
+    display: flex;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.tag {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 9px;
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    color: #333;
+}
+
+.vegetarian {
+    background-color: #51CF66;
+}
+
+.vegan {
+    background-color: #94D82D;
+}
+
+.paleo {
+    background-color: #FFD43B;
+}
+
+.meal-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.meal-attributes {
+    font-size: 1.8rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.meal-attribute {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.ion-icon {
+    font-size: 2.6rem;
+    color: #E67E22;
+}
+
+.list {
+    font-size: 1.8rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.list-img {
+    font-size: 3rem;
+    color: #E67E22;
+}
