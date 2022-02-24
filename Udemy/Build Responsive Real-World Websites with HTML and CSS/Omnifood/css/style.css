@@ -287,3 +287,62 @@
     font-size: 3rem;
     color: #E67E22;
 }
+
+/***********************/
+/* TESTIMONIAL SECTION */
+/***********************/
+.testimonial-section {
+    background-color: #FDF2E9;
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+    align-items: center;
+}
+
+.testimonial-container {
+    padding: 5.4rem;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5.2rem;
+    column-gap: 5.2rem;
+}
+
+.testimonial-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
+}
+
+.testimonial-author {
+    font-size: 1.6rem;
+}
+
+.testimonial-img {
+    width: 6.4rem;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.6rem;
+    row-gap: 1.6rem;
+    padding: 1.6rem;
+}
+
+.gallery-img {
+    overflow: hidden;
+}
+
+.gallery-img img {
+    display: block;
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.gallery-img img:hover {
+    transform: scale(1.1);
+}
