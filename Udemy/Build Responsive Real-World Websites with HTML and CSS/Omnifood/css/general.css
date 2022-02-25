@@ -38,6 +38,10 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-4-cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .grid-center {
     align-items: center;
 }
@@ -147,8 +151,6 @@ body {
     text-decoration: none;
     color: #cf711f;
 }
-
-
 
 .margin-right-sm {
     margin-right: 1.6rem !important;
