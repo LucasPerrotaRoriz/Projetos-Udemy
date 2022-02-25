@@ -270,7 +270,6 @@
 }
 
 .list {
-    font-size: 1.8rem;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -278,13 +277,15 @@
 }
 
 .list-item {
+    font-size: 1.8rem;
     display: flex;
     align-items: center;
     gap: 1.6rem;
 }
 
-.list-img {
-    font-size: 3rem;
+.list-icon {
+    width: 3rem;
+    height: 3rem;
     color: #E67E22;
 }
 
@@ -346,3 +347,7 @@
 .gallery-img img:hover {
     transform: scale(1.1);
 }
+
+/***********************/
+/* PRICE SECTION */
+/***********************/
