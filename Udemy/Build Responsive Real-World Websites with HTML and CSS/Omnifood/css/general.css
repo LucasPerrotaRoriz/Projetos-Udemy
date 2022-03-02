@@ -42,6 +42,10 @@ body {
     grid-template-columns: repeat(4, 1fr);
 }
 
+.grid-5-cols {
+    grid-template-columns: repeat(5, 1fr);
+}
+
 .grid-center {
     align-items: center;
 }
@@ -168,6 +172,11 @@ body {
 .link:active {
     text-decoration: none;
     color: #cf711f;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 .margin-right-sm {
