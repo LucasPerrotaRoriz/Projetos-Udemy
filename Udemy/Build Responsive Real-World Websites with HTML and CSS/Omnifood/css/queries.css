@@ -121,6 +121,8 @@
 
     .main-nav {
         background-color: rgba(255, 255, 255, 0.97);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(10px);
         position: absolute;
         top: 0;
         left: 0;
@@ -197,7 +199,8 @@
         grid-template-columns: repeat(6, 1fr);
     }
 
-    .logo-col, address-col {
+    .logo-col,
+    address-col {
         grid-column: span 3;
     }
 
@@ -234,7 +237,7 @@
     }
 
     .featured-imgs {
-       gap: 2rem; 
+        gap: 2rem;
     }
 
     .step-imgbox:nth-child(2) {
@@ -242,7 +245,7 @@
     }
 
     .step-imgbox:nth-child(6) {
-       grid-row: 5;
+        grid-row: 5;
     }
 
     .testimonials {
