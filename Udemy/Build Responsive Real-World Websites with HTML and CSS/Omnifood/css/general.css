@@ -6,6 +6,7 @@
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -13,11 +14,12 @@ body {
     line-height: 1;
     font-weight: 400;
     color: #555;
+    overflow-x: hidden;
 }
 
 .container {
-    width: 120rem;
-    padding: 3.2rem;
+    max-width: 120rem;
+    padding: 0 3.2rem;
     margin: 0 auto;
 }
 
@@ -58,14 +60,19 @@ body {
 .heading-primary {
     font-size: 5.2rem;
     letter-spacing: -0.5px;
+    margin-bottom: 3.2rem;
 }
 
 .heading-secondary {
     font-size: 4.2rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
 }
 
 .heading-tertiary {
     font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 3.2rem;
 }
 
 .subheading {
@@ -115,6 +122,7 @@ body {
 }
 
 .btn-form {
+    display: block;
     background-color: #45260a;
     color: #fdf2e9;
     align-self: end;
