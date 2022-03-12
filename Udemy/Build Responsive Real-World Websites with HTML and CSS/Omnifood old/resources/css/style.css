@@ -14,7 +14,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 2rem;
 }
 
 .main-nav-list {
@@ -103,5 +102,58 @@ header {
 .gallery-img:hover {
     transform: scale(1);
     opacity: 1;
+}
+
+/*************************/
+/* STEPS */
+/*************************/
+.steps-section {
+    padding: 9.6rem 0;
+}
+
+.steps-imgbox {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.app-img {
+    width: 40%;
+}
+
+.steps-textbox {
+    margin-top: 3.2rem;
+}
+
+.steps {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 5.2rem;
+}
+
+.number {
+    font-size: 3rem;
+    height: 5.2rem;
+    width: 5.2rem;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e67e22;
+    color: #e67e22;
+}
+
+.step-text {
+    font-size: 2rem;
+    line-height: 1.4;
+    width: 80%;
+}
+
+.app-link {
+    height: 5.2rem;
+    margin-left: 1rem;
 }
 
