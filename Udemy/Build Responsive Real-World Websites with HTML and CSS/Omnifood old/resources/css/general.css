@@ -14,22 +14,57 @@ body {
     font-weight: 300;
     line-height: 1;
     color: #333;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .container {
     max-width: 120rem;
     margin: 0 auto;
     padding: 0 3.2rem;
-    overflow: hidden;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-weight: 300;
 }
 
 .heading-primary {
     font-size: 5.2rem;
-    text-transform: uppercase;
-    line-height: 1.1;
     color: #fff;
-    font-weight: 300;
+}
+
+.heading-secondary {
+    font-size: 3.6rem;
+    word-spacing: 2px;
+    margin-bottom: 3rem;
+}
+
+.heading-secondary:after {
+    content: " ";
+    display: block;
+    width: 10rem;
+    border-bottom: 2px solid #e67e22;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.heading-tertiary {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+}
+
+.grid-4-cols {
+    grid-template-columns: repeat(4, 1fr);
 }
 
 /* BUTTONS */
@@ -71,4 +106,9 @@ body {
 /* LOGO AND ICONS */
 .logo {
     height: 10rem;
+}
+
+/* UTILIDADES */
+.center {
+    text-align: center;
 }

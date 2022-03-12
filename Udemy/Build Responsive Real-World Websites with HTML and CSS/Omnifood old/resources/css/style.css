@@ -7,6 +7,7 @@ header {
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .nav-container {
@@ -48,6 +49,32 @@ header {
     transform: translate(-50%, -50%);
 }
 
+/*************************/
+/* FEATURES */
+/*************************/
+.feature-section {
+    padding: 9.6rem 0;
+}
+
+.long-copy {
+    font-size: 2rem;
+    line-height: 1.4;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 5.2rem;
+}
+
+.feature-icon {
+    height: 5.4rem;
+    width: 5.4rem;
+    color: #e67e22;
+    margin-bottom: 2rem;
+}
+
+.feature-text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
 
 
 
