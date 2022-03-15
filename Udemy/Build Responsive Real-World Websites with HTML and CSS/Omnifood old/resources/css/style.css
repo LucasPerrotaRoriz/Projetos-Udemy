@@ -311,3 +311,53 @@
     text-align: center;
 }
 
+/*************************/
+/* PRICE */
+/*************************/
+.form-section {
+    padding: 9.6rem 0;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #f4f4f4;
+    border-radius: 11px;
+    padding: 6.4rem 4.8rem 7.2rem 4.8rem;
+    position: relative;
+}
+
+.contact-form label {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    font-size: 1.8rem;
+    font-family: inherit;
+    color: inherit;
+    border-radius: 11px;
+    border: 1px solid #a1a1a1;
+    margin-bottom: 2.2rem;
+    padding: 1rem;
+}
+
+.contact-form div span {
+    font-size: 2rem;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.form-button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    display: inline-block;
+    
+}
