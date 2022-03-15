@@ -1,7 +1,7 @@
 /*************************/
 /* HEADER */
 /*************************/
-header {
+.hero-header {
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
     url('img/hero.jpg');
     height: 100vh;
@@ -79,7 +79,7 @@ header {
 /* GALLERY */
 /*************************/
 .gallery-section {
-    padding: 9.6rem 0;
+    padding-top: 9.6rem;
 }
 
 .gallery {
@@ -109,6 +109,7 @@ header {
 /*************************/
 .steps-section {
     padding: 9.6rem 0;
+    background-color: #f4f4f4;
 }
 
 .steps-imgbox {
@@ -254,5 +255,59 @@ header {
     font-size: 1.8rem;
 }
 
+/*************************/
+/* PRICE */
+/*************************/
+.plans-section {
+    padding: 9.6rem 0;
+    background-color: #f4f4f4;
+}
 
+.plan-box {
+    border-radius: 11px;
+    background-color: #fff;
+    box-shadow: 0px 10px 11px -9px rgba(0,0,0,0.5);
+    padding: 4.8rem 3.2rem;
+}
+
+.plan-name {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+}
+
+.plan-price {
+    font-size: 2.4rem;
+    color: #e67e22;
+    margin-bottom: 2rem;
+}
+
+.plan-price span {
+    font-size: 5rem;
+}
+
+.plan-text {
+    font-size: 1.6rem;
+    margin-bottom: 3.2rem;
+}
+
+.plan-features-list {
+    font-size: 2rem;
+    list-style-type: none;
+}
+
+.plan-features-list li {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1.6rem;
+}
+
+.plan-icon {
+    color: #e67e22;
+}
+
+.button {
+    text-align: center;
+}
 
