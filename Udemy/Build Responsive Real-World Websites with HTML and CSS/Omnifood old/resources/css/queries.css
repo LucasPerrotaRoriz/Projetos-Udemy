@@ -1,0 +1,100 @@
+@media only screen and (max-width: 1250px) {
+    .container {
+        max-width: 110rem;
+        padding: 0 4.8rem;
+    }
+
+    .hero {
+        max-width: 100%;
+        padding: 0 4.8rem;
+    }
+
+    .app-img {
+        width: 50%;
+    } 
+    
+    .contact-form {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .grid {
+        column-gap: 4.8rem;
+        row-gap: 6.4rem;
+    }
+
+    .grid-3-cols,
+    .grid-4-cols {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .app-img {
+        width: 60%;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .app-img {
+        width: 80%;
+    }
+
+    .app-link {
+        height: 4rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .grid-2-cols,
+    .grid-3-cols,
+    .grid-4-cols {
+        grid-template-columns: 1fr;
+    }
+
+    .main-nav-list {
+        display: none;
+    }
+
+    .hero {
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .feature {
+        text-align: center;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .app-img {
+        width: 70%;
+    }   
+
+    .steps-imgbox {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .step-text {
+        margin-top: 1.6rem;
+    }
+
+    .testimonial-text:before {
+        top: -65%;
+        left: -3%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}
