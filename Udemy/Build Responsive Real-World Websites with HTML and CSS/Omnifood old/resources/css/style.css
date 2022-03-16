@@ -359,5 +359,58 @@ textarea {
     left: 50%;
     transform: translate(-50%, -25%);
     display: inline-block;
-    
+}
+
+/*************************/
+/* FOOTER */
+/*************************/
+.footer {
+    padding: 5.2rem 0;
+    background-color: #333;
+    color: rgb(153, 153, 153);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav,
+.social-links {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    font-size: 1.6rem;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited {
+    color: rgb(153, 153, 153);
+    text-decoration: none;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #fff;
+}
+
+.social-icon {
+    height: 2.6rem;
+    width: 2.6rem;
+}
+
+.social-icon,
+.social-icon:link,
+.social-icon:visited {
+    color: rgb(153, 153, 153);
+}
+
+.social-icon:hover,
+.social-icon:active {
+    color: #fff;
+}
+
+.copy {
+    font-size: 1.6rem;
+    margin-top: 3.2rem;
 }
