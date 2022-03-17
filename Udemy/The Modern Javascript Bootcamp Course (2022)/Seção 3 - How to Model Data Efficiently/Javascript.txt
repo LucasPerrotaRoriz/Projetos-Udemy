@@ -1,0 +1,58 @@
+Variáveis podem mudar de tipo.
+Exemplo:
+
+let numDonuts = 12 // Número
+numDonuts = false // Boolean
+numDonuts = 129873872 // Número de novo
+
+Para que se tenha aspas simples ou duplas dentro de ma string faça:
+Exemplo:
+'he said "hahah"' Certo
+"he said 'lol'"	Certo
+"She said "omg"" Erro
+
+****************************************
+
+Strings são imutáveis logo não podem ser mudadas.
+Exemplo:
+let mySong = "Surfin' USA";
+mySong[0] = "D";
+console.log(mySong);
+Resultado Surfin' USA
+
+****************************************
+
+Método toUpperCase() para colocar em maiuscula, toLowerCase() para colocar em minúscula.
+Método trim() remove espaços no começo e fim da string.
+Método indexOf() indica o índice onde a primeira ocorrência de uma string está. É case sensitive.
+Método slice() pega pedaços da string. Primero valor é o índice inicial e o segundo o índice final - 1.
+Se apenas um número for fornecido vai do número ao final da string. Se o número for maior que a string 
+retorna uma string vazia.
+Método replace() especifica que string mudar e pelo que. A mudança acontece apenas uma vez na string, para
+mudar mais use expressões regulares. Se a string a ser modificada não for compatível retorna a string.
+
+****************************************
+
+Comandos de escape \n \' \" \\
+Exemplo:
+console.log('he said I aint\' happy');
+console.log("he said \"I aint happy\"");
+console.log("he said \"I ain\'t happy\"");
+console.log("\\");
+
+
+****************************************
+
+Método Math.floor() remove número depois do .
+Método Math.round() arredonda o número para baixo ou para cima.
+Método Math.pow() faz exponenciação
+Método Math.random() para gerar números aleatórios
+
+
+
+
+
+
+
+
+
