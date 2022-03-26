@@ -170,8 +170,8 @@
         gap: 4.8rem;
     }
 
-    .main-nav-link:link,
-    .main-nav-link:visited {
+    .nav-item-link:link,
+    .nav-item-link:visited {
         font-size: 3rem;
     }
 }

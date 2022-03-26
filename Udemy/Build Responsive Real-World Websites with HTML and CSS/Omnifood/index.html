@@ -15,20 +15,26 @@
   <link rel="stylesheet" href="css/queries.css">
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Any polyfill to enable smoothscroll for the JavaScript APIs -->
+  <script defer src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+  <!-- This package, to apply the smoothscroll to anchor links -->
+  <script defer src="https://unpkg.com/smoothscroll-anchor-polyfill"></script>
   <script defer src="js/script.js"></script>
   <title>Omnifood Never cook again!</title>
 </head>
 
 <body>
   <header class="header">
-    <img class="logo" src="img/omnifood-logo.png" alt="Omnifood Logo">
+    <a href="#">
+      <img class="logo" src="img/omnifood-logo.png" alt="Omnifood Logo">
+    </a>
     <nav class="main-nav">
       <ul class="main-nav-list">
-        <li><a class="nav-item-link" href="#">How it works</a></li>
-        <li><a class="nav-item-link" href="#">Meals</a></li>
-        <li><a class="nav-item-link" href="#">Testimonials</a></li>
-        <li><a class="nav-item-link" href="#">Pricing</a></li>
-        <li><a class="nav-item-link selected" href="#">Try for free</a></li>
+        <li><a class="nav-item-link" href="#how">How it works</a></li>
+        <li><a class="nav-item-link" href="#meals">Meals</a></li>
+        <li><a class="nav-item-link" href="#testimonials">Testimonials</a></li>
+        <li><a class="nav-item-link" href="#pricing">Pricing</a></li>
+        <li><a class="nav-item-link selected" href="#cta">Try for free</a></li>
       </ul>
     </nav>
 
@@ -47,8 +53,8 @@
             The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored
             to your personal tastes and nutritional needs.
           </p>
-          <a href="#" class="btn btn-primary margin-right-sm">Start eating well</a>
-          <a href="#" class="btn btn-secondary">Learn more &darr;</a>
+          <a href="#cta" class="btn btn-primary margin-right-sm">Start eating well</a>
+          <a href="#how" class="btn btn-secondary">Learn more &darr;</a>
           <div class="delivered-meals">
             <div class="delivered-imgs">
               <img src="img/customers/customer-1.jpg" alt="Photo of a customer">
@@ -81,7 +87,7 @@
       </div>
     </section>
 
-    <section class="steps-section">
+    <section class="steps-section" id="how">
       <div class="container">
         <span class="subheading">How it works</span>
         <h2 class="heading-secondary">Your daily dose of health in 3 simple steps</h2>
@@ -127,7 +133,7 @@
       </div>
     </section>
 
-    <section class="meals-section">
+    <section class="meals-section" id="meals">
       <div class="container center-text">
         <span class="subheading">Meals</span>
         <h2 class="heading-secondary">
@@ -229,7 +235,7 @@
       </div>
     </section>
 
-    <section class="testimonial-section">
+    <section class="testimonial-section" id="testimonials">
       <div class="testimonial-container">
         <span class="subheading">Testimonials</span>
         <h2 class="heading-secondary">Once you try it, you can't go back</h2>
@@ -308,7 +314,7 @@
       </div>
     </section>
 
-    <section class="price-section">
+    <section class="price-section" id="pricing">
       <div class="container">
         <span class="subheading">Pricing</span>
         <h2 class="heading-secondary">Eating well without breaking the bank</h2>
@@ -410,7 +416,7 @@
       </div>
     </section>
 
-    <section class="cta-section">
+    <section class="cta-section" id="cta">
       <div class="container">
         <div class="cta">
           <div class="cta-textbox">
