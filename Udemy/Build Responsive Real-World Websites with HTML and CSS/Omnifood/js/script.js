@@ -43,6 +43,44 @@ allLinks.forEach(function (link) {
 });
 
 ////////////////////////////////////////////////////////
+// Sticky navigation
+const sectionHeroEl = document.querySelector(".hero-section");
+
+const obs = new IntersectionObserver(
+    function (entries) {
+        const ent = entries[0];
+        console.log(ent);
+        if(ent.isIntersecting === false) {
+            document.body.classList.add("sticky");
+        }
+
+        if(ent.isIntersecting === true) {
+            document.body.classList.remove("sticky");
+        }
+
+    },
+    {
+        // in the viewport
+        root: null,
+        // It will observe this hero section inside of the viewport
+        // Basically as it moves through the viewport
+        threshold: 0,
+        // We will have an event as soon as 0% of the hero section
+        // is inside the viewport
+        rootMargin: '-80px', // So the sticky effects applies before the
+        // featured section, and 80px was chosen because is the height of
+        // the navigation bar
+    }
+);
+obs.observe(sectionHeroEl);
+// **
+// The entire header has been taken out of flow because it is now absolutely
+// positioned. In order to fix that you need to compensate for the lost
+// height and add some margin to the of this header
+// Add exactly the same margin as is the original height of the header
+
+
+////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
     var flex = document.createElement("div");
