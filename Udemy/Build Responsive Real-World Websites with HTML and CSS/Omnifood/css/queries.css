@@ -117,6 +117,7 @@
     /* MOBILE NAVIGATION */
     .btn-mobile-nav {
         display: block;
+        z-index: 9999;
     }
 
     .main-nav {
@@ -135,8 +136,11 @@
         justify-content: center;
         transition: all 0.5s ease-in;
 
+        /* 1) Hide it visually */
         opacity: 0;
+        /*2) Make it unaccessible to mouse and keyboard*/
         pointer-events: none;
+        /*3) Hide it from screen readers*/
         visibility: hidden;
     }
 
@@ -145,6 +149,7 @@
         gap: 4.8rem;
     }
 
+    /* Navigation display whenever the header has this nav-open class */
     .nav-open .main-nav {
         opacity: 1;
         pointer-events: auto;

@@ -17,6 +17,11 @@ body {
     overflow-x: hidden;
 }
 
+*:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.5rem rgba(230, 125, 34, 0.5);
+  }
+
 .container {
     max-width: 120rem;
     padding: 0 3.2rem;
