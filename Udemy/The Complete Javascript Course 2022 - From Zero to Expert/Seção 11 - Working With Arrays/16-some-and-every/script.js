@@ -245,9 +245,6 @@ some - if there is any value for which the condition returns true then the some 
 will return true.
 
 every - works the same as some but all the values must satisfy the condition.
-
-Up until this point the callback was always written directly as an argument
-into the array methods. However the functions could also be written separately.
 */
 
 console.log(movements);
